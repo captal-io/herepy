@@ -30,7 +30,6 @@ setup(
     version=extract_metaitem('version'),
     license=extract_metaitem('license'),
     description=extract_metaitem('description'),
-    long_description=(read('README.rst')),
     long_description_content_type='text/x-rst',
     author=extract_metaitem('author'),
     author_email=extract_metaitem('email'),
