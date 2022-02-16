@@ -2,7 +2,7 @@
 
 from herepy import GeocoderApi
 
-geocoder_api = GeocoderApi(api_key="7z2hfT4d768aykLEGjxuNxB_8g1tQf3CcDEI_dhMg48")
+geocoder_api = GeocoderApi(api_key="")
 
 # geocodes given search text
 response = geocoder_api.free_form("casa verde, sao paulo - sp, 02546-000, brazil")
