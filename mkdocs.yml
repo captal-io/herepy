@@ -1,0 +1,76 @@
+site_name: HerePy
+site_description: A library that provides a Python interface to the HERE APIs
+site_url: https://herepy.abdullahselek.com/
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: amber
+  favicon: images/favicon.png
+  language: en
+repo_name: abdullahselek/HerePy
+repo_url: https://github.com/abdullahselek/HerePy
+edit_uri: ''
+nav:
+- HerePy: index.md
+- installation.md
+- API Documentations:
+  - api/destination_weather_api.md
+  - api/geocoder_api.md
+  - api/geocoder_autocomplete_api.md
+  - api/geocoder_reverse_api.md
+  - api/here_api.md
+  - api/places_api.md
+  - api/public_transit_api.md
+  - api/rme_api.md
+  - api/routing_api.md
+  - api/ev_charging_stations_api.md
+  - api/fleet_telematics_api.md
+  - api/traffic_api.md
+  - api/isoline_routing_api.md
+  - api/map_tile_api.md
+  - api/vector_tile_api.md
+  - api/map_image_api.md
+- Models:
+  - models/models.md
+- Objects:
+  - objects/objects.md
+- Enums:
+  - enums/enums.md
+- Utils:
+  - utils/utils.md
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          rendering:
+            show_source: true
+      watch:
+        - herepy
+markdown_extensions:
+- toc:
+    permalink: true
+- markdown.extensions.codehilite:
+    guess_lang: false
+- markdown_include.include:
+    base_path: docs
+- admonition
+- codehilite
+- extra
+extra:
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/abdullahselek/HerePy
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/abdullahselek
+  - icon: fontawesome/solid/globe
+    link: https://abdullahselek.com
+extra_css:
+- css/termynal.css
+- css/custom.css
+extra_javascript:
+- https://unpkg.com/mermaid@8.4.6/dist/mermaid.min.js
+- js/termynal.js
+- js/custom.js

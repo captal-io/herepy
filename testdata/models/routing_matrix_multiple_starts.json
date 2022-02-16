@@ -1,0 +1,14 @@
+{
+    "matrixId": "{matrixId}",
+    "matrix": {
+        "numOrigins": 10,
+        "numDestinations": 1000,
+        "travelTimes": [10, 20, 0],
+        "errorCodes": [0, 0, 0]
+    },
+    "regionDefinition": {
+        "type": "circle",
+        "center": {"lat": 0.0, "lng": 0.0},
+        "radius": 10000
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "items": [
+      {
+        "title": "Pagliucas Restaurant",
+        "id": "here:pds:place:840drt3p-ffa1b2d02da84a169543c3dc93260f52",
+        "resultType": "place",
+        "address": {
+          "label": "Pagliucas Restaurant, 14 Parmenter St, Boston, MA 02113, United States",
+          "countryCode": "USA",
+          "countryName": "United States",
+          "state": "Massachusetts",
+          "county": "Suffolk",
+          "city": "Boston",
+          "district": "North End",
+          "street": "Parmenter St",
+          "postalCode": "02113",
+          "houseNumber": "14"
+        },
+        "position": { "lat": 42.36374, "lng": -71.05495 },
+        "access": [{ "lat": 42.3638, "lng": -71.05487 }],
+        "distance": 29,
+        "categories": [{ "id": "100-1000-0000" }, { "id": "100-1000-0001" }, { "id": "200-2000-0011" }]
+      }
+    ]
+  }
