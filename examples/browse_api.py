@@ -3,7 +3,7 @@
 from herepy import BrowseApi
 from pprint import *
 
-browse_api = BrowseApi(api_key="7z2hfT4d768aykLEGjxuNxB_8g1tQf3CcDEI_dhMg48")
+browse_api = BrowseApi(api_key="")
 
 # fetches a list of browse based on a query string
 response = browse_api.search(
