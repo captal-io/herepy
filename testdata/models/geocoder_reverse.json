@@ -1,0 +1,38 @@
+{
+    "items": [
+      {
+        "title": "Via di Porta Cavalleggeri, 71, 00165 Rome, Italy",
+        "resultType": "houseNumber",
+        "houseNumberType": "PA",
+        "address": {
+          "label": "Via di Porta Cavalleggeri, 71, 00165 Rome, Italy",
+          "countryCode": "ITA",
+          "countryName": "Italy",
+          "state": "Latium",
+          "county": "Rome",
+          "city": "Rome",
+          "district": "Aurelio",
+          "street": "Via di Porta Cavalleggeri",
+          "postalCode": "00165",
+          "houseNumber": "71"
+        },
+        "position": {
+          "lat": 41.89991,
+          "lng": 12.45449
+        },
+        "access": [
+          {
+            "lat": 41.89999,
+            "lng": 12.45443
+          }
+        ],
+        "distance": 3,
+        "mapView": {
+          "west": 12.456,
+          "south": 41.89879,
+          "east": 12.45298,
+          "north": 41.90103
+        }
+      }
+    ]
+  }
